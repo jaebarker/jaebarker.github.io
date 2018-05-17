@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jae Barker | Home</title>
+		<link rel="stylesheet" href="layout.css"/>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body>
+		<header>
+			
+		</header>
+		
+		<nav>
+			
+		</nav>
+		
+		<article>
+			<h1>Recent Pieces</h1>
+			
+			<div id="post1">
+				
+			</div>
+			
+			<div id="post2">
+				
+			</div>
+			
+			<div id="post3">
+				
+			</div>
+			
+			<div id="post4">
+				
+			</div>
+			
+			<div id="post5">
+				
+			</div>
+		</article>
+		
+		<footer>
+			
+		</footer>
+		
+		<script>
+			fillDivs();
+			
+			function fillDivs(){
+				var divID[] = "post1", "post2", "post3", "post4", "post5";
+				for(i=0;i<5;i++){
+					document.getElementByID(divID[i]).innerhtml = "<h1>" + //titleVar
+															+ "</h1>" 
+															+ "<h2>" + //dateVar
+															+ "</h2>"
+															+ "<div id='postcontent'>" + //postVar.substr(0,150)
+															+ "</div>"
+															;
+				}
+			}
+		</script>
+	</body>
+</html>
